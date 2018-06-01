@@ -1,3 +1,7 @@
+// OOP Structure:
+// Setup UI functionality and Objects (data) in classes, creating them using the class's methods.
+// Call these methods within the event handlers.
+
 // Book Constructor
 function Book(title, author, isbn) {
   this.title = title;
@@ -62,6 +66,9 @@ UI.prototype.clearFields = function() {
       document.getElementById('author').value = '';
       document.getElementById('isbn').value = '';
 }
+
+
+// Event Listeners
 
 // Event Listeners for add book
 document.getElementById('book-form').addEventListener('submit',
