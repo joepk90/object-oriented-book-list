@@ -60,6 +60,8 @@ class UI {
    document.getElementById('title').value = '';
    document.getElementById('author').value = '';
    document.getElementById('isbn').value = '';
+
+   document.getElementById('title').focus();
  }
 
 }
